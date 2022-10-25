@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Html Form</title>
+	<link rel="stylesheet" href="custom.css">
+</head>
+<body>
+	<fieldset class="fieldset">
+		<legend align="center">Students Information</legend>
+<form>
+	<label>Full Name</label>
+	<input class="input" type="text" placeholder="Full Name" name="first_name" autocomplete="off" autofocus="true" size="100%" pattern="[A-Za-z]{3}">
+<br><br>
+	<label>Password</label>
+	<input class="input" type="password" placeholder="Enter Password">
+<br><br>
+<label>Enter Age</label>
+	<input class="input" type="number" placeholder="Enter age" min="8" max="30">
+	<br><br>
+<label>Enter Email</label>
+	<input class="input" type="email" placeholder="Enter Email" >
+
+	<br><br>
+	<label>Enter Url</label>
+<input class="input" type="url" name="">
+<br><br>
+	<label>Select Gender</label>
+	<br><br>
+	<label for="">Male</label><input type="radio"  name="gender" checked>
+	<label for="">Female</label><input type="radio" name="gender">
+
+	<br><br>
+	<label>Select Languages</label>
+	<br><br>
+	<label for="">Urdu</label><input type="checkbox"  >
+	<label for="">English</label><input type="checkbox">
+	<label for="">Pushto</label><input type="checkbox" checked>
+	<br><br>
+
+<label>Select Your DOB</label>
+	<input type="date" min="2017-08-01">
+
+	<br><br>
+	<label>Enter Message</label><br>
+	<textarea cols="30" rows="10">	</textarea>
+<br><br>
+<label>Select Country</label>
+<select >
+	<option>Please select Your country</option>
+
+	<option selected>Pakistan</option>
+	<option>India</option>
+	<option>Afg</option>
+</select>
+<br><br>
+<label>Type Country Name</label><br>
+<input type="text" list="countries">
+<datalist id="countries">
+	<option>Pakistan</option>
+	<option>India</option>
+	<option>Afg</option>
+</datalist>
+
+
+<br><br>
+	<label>Select File</label>
+	<input type="file" accept="image/*" multiple>
+<br><br>
+<label>Select Color</label>
+<input type="color" name="">
+<br><br>
+
+<label>Select Sallary</label>
+<input type="range" min="10000" max="50000" step="5000" name="">
+<br><br>
+<label>Time to Chose</label>
+<input type="time" >
+<br>
+<br>
+	<input class="btn" type="reset" value="Reset form">
+	<input class="btn" type="submit" value="submit form">
+	<br><br>
+
+
+
+
+
+</form>
+</fieldset>
+</body>
+</html>
